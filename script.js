@@ -9,7 +9,7 @@ document.getElementById("arr").innerHTML = arr  + "<br />";
 
 
 let getEvenNumbers = () => {
-    let arr = [4,5,7,8,14,45,94,30,76];
+    let arr = [5,6,7,8,48,33,14,45,94,1,30,76];
     	
     let the_evens = arr.filter(number => number % 2 == 0);
     console.log(the_evens);
@@ -20,7 +20,7 @@ getEvenNumbers();
 //console.log(the_evens.length);
 
 
-var arr = [3,5,6,7,8,4,2,1,66,77]
+var arr = [5,6,7,8,48,33,14,45,94,1,30,76]
 const returnEvenArray = (arr) => {
    return arr.filter(el => {
       return el % 2 === 1;
@@ -94,7 +94,8 @@ function degFahreenheit() {
  }
 
 
- //3.
+ //3. a prog to find the number of even digits in a given integer & return the number of the even digit. if no digits were found, return none
+
 
 
             /*JS TASK 3*/
