@@ -9,7 +9,7 @@ document.getElementById("arr").innerHTML = arr  + "<br />";
 
 
 let getEvenNumbers = () => {
-    let arr = [4,5,7,8,14,45,94,30,76];
+    let arr = [5,6,7,8,48,33,14,45,94,1,30,76];
     	
     let the_evens = arr.filter(number => number % 2 == 0);
     console.log(the_evens);
@@ -20,7 +20,7 @@ getEvenNumbers();
 //console.log(the_evens.length);
 
 
-var arr = [3,5,6,7,8,4,2,1,66,77]
+var arr = [5,6,7,8,48,33,14,45,94,1,30,76]
 const returnEvenArray = (arr) => {
    return arr.filter(el => {
       return el % 2 === 1;
@@ -34,15 +34,6 @@ let form = document.getElementById('signup');
 let name = form.elements[0];
 let email = form.elements['email'];
 
-//onsting
-a = 6;
-var a;
-addNums = (20, 30)
-console.log(a, 'aaaa');
-
-function addNums(a, b) {
-   console.log(a+b, 'hoisted function')
-}
 
 
 
@@ -81,7 +72,7 @@ if(grade < "1") {
 //formula: c/5 = (f-32)/9
 
 var temp =
-celsius: c/5
+celsius: c/5;
 fahreenheit: (f-32)/9
 
 function degCelsius() {
@@ -103,7 +94,8 @@ function degFahreenheit() {
  }
 
 
- //3.
+ //3. a prog to find the number of even digits in a given integer & return the number of the even digit. if no digits were found, return none
+
 
 
             /*JS TASK 3*/
